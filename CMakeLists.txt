@@ -3,6 +3,7 @@ project(text)
 
 # Generate compile_commands.json
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+set(CMAKE_BUILD_TYPE Debug)
 
 # Dependencies
 set(RAYLIB_VERSION 5.5)
